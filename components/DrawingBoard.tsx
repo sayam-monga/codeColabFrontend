@@ -565,7 +565,7 @@ const DrawingBoard: React.FC<DrawingBoardProps> = ({
     }
 
     // Initialize socket connection
-    socketRef.current = io("wss://codecolab-drawserver.glitch.me", {
+    socketRef.current = io("https://drawbackend.onrender.com/", {
       reconnection: true,
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
