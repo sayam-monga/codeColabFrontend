@@ -6,7 +6,7 @@ import * as monacoEditor from "monaco-editor";
 import { useSearchParams } from "next/navigation";
 
 // Update the socket URL to match your Glitch server
-const SOCKET_URL = "wss://codecolab-wsserver.glitch.me";
+const SOCKET_URL = "https://codebackend-6jvd.onrender.com/";
 
 interface User {
   id: string;
